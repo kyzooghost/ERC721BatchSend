@@ -3,4 +3,10 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
+[rpc_endpoints]
+aurora = "${AURORA_RPC_URL}"
+
+[etherscan]
+aurora = { key = "${AURORASCAN_API_KEY}" }
+
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
